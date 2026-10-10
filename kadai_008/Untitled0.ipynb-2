@@ -1,0 +1,50 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "var = 15  # 任意の正の整数\n",
+        "\n",
+        "if var % 15 == 0:\n",
+        "    print(\"FizzBuzz\")\n",
+        "elif var % 3 == 0:\n",
+        "    print(\"Fizz\")\n",
+        "elif var % 5 == 0:\n",
+        "    print(\"Buzz\")\n",
+        "else:\n",
+        "    print(var)"
+      ],
+      "metadata": {
+        "id": "sCNFRbUWupwL",
+        "outputId": "c9f6a7eb-2b2a-4103-84d2-dd8c9cb2a76c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 100,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "FizzBuzz\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
