@@ -1,0 +1,67 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "array = [\"水\",\"金\",\"地\",\"火\",\"木\",\"土\",\"天\",\"海\",\"冥\"]\n",
+        "\n",
+        "for planet in array:\n",
+        "      print(planet)\n",
+        "i = 0\n",
+        "\n",
+        "while i < 9:\n",
+        "    print(array[i])\n",
+        "    i = i + 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RtjZ43zI5LHD",
+        "outputId": "3db9bf28-8f49-4a12-c069-f2cc4c95732c"
+      },
+      "execution_count": 174,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "水\n",
+            "金\n",
+            "地\n",
+            "火\n",
+            "木\n",
+            "土\n",
+            "天\n",
+            "海\n",
+            "冥\n",
+            "水\n",
+            "金\n",
+            "地\n",
+            "火\n",
+            "木\n",
+            "土\n",
+            "天\n",
+            "海\n",
+            "冥\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
